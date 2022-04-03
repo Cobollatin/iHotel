@@ -1,1 +1,1 @@
-# iHotel
+# iHotel-landing-page
