@@ -1,1 +1,1 @@
-# iHotel-landing-page
+# easyCloud-landing-page
