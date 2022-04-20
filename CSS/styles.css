@@ -1,0 +1,136 @@
+.box-background:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 229, 207, 1);
+  display: block;
+  z-index: -1;
+  height: 25rem;
+}
+.contact-image {
+  z-index: -1;
+  background: url("../media/pictures/housesPicture.png");
+  object-fit: cover;
+  position: absolute;
+  display: block;
+}
+.contact-title {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 1);
+}
+.form-control-labels {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0.2em;
+  color: rgba(78, 78, 78, 1);
+}
+
+.form-control {
+  font-family: "Segoe UI";
+  position: relative;
+  font-size: 17px;
+  display: inline-block;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 400;
+  background-color: rgba(241, 241, 241, 1);
+}
+
+.form-control {
+  padding: 0.5em 2.5em;
+  border-radius: 0.8em;
+}
+
+.button-contact-send {
+  background-color: #009d76;
+  margin-top: 2rem;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.button-contact-send:hover {
+  background-color: #006f53;
+}
+
+/* SOLO MEDIA QUERIES PARA RESPONSIVE-------------------------------------------------- */
+
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .box-background:before {
+    width: 55rem;
+    right: 200px;
+  }
+  .contact-image {
+    width: 43rem;
+    height: 28.625rem;
+    left: 500px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .box-background:before {
+    width: 40rem;
+    right: 160px;
+  }
+  .contact-image {
+    width: 43rem;
+    height: 28.625rem;
+    left: 400px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1700px) {
+  .box-background:before {
+    width: 35rem;
+    right: 150px;
+  }
+  .contact-image {
+    width: 38rem;
+    height: 25rem;
+    left: 300px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .box-background:before {
+    width: 30rem;
+    right: 100px;
+  }
+  .contact-image {
+    width: 38rem;
+    height: 25rem;
+    left: 200px;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 1000px) {
+  .box-background:before {
+    width: 25rem;
+    right: 70px;
+  }
+  .contact-image {
+    width: 30rem;
+    height: 22rem;
+    left: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 920px) {
+  .box-background:before {
+    width: 22rem;
+    right: 50px;
+  }
+  .contact-image {
+    width: 25rem;
+    height: 18rem;
+    left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .formulario {
+    background-color: rgba(255, 229, 207, 1);
+  }
+}

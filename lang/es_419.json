@@ -16,5 +16,12 @@
       "title": "LOS PRINCIPALES SERVICIOS DE LA NUBE",
       "description": "Poras escoger entre maquinas virtuales, bases de datos y computacion serverless."
     }
+  },
+  "app-form": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "number": "Número",
+    "email": "Email",
+    "send": "Enviar"
   }
 }
