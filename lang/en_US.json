@@ -16,5 +16,12 @@
       "title": "MAIN CLOUD SERVICES",
       "description": "You can choose from virtual machines, databases or serverless computing."
     }
+  },
+  "app-form": {
+    "title": "Contact us",
+    "name": "Name",
+    "number": "Number",
+    "email": "Email",
+    "send": "Send"
   }
 }
