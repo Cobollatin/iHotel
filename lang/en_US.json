@@ -3,6 +3,23 @@
   "app-description": "We will help you chose the best cloud provider for your needs.",
   "app-login": "Login",
   "app-register": "Register",
+  "app-prices":
+  {
+    "title": "Find a Plan",
+    "free-card":
+    {
+      "title": "Free",
+      "description1": "Maximum 10 rooms",
+      "description2": "Maximum  5 clients per day",
+      "description3": "Maximum 20 products",
+      "description4": "Maximum 3 services"
+    },
+    "premium-card":
+    {
+      "title": "Premium",
+      "description": "You will be able to use all functions unlimitedly"
+    }
+  }, 
   "app-form": {
     "title": "Contact us",
     "name": "Name",

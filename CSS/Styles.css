@@ -1,3 +1,49 @@
+#pricing
+{
+  margin-bottom: 150px;
+}
+#pricing h2
+{
+  font-family: "Segoe UI";
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+.pricing-card
+{
+  display: flex;
+  flex-wrap: nowrap;
+  color: #fff;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.free-card, .premium-card
+{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+}
+.below-card, .upper-card
+{
+  display: flex;
+  width: 400px;
+}
+.upper-card
+{
+  background: #CA7900;  
+  justify-content: center;
+  padding: 20px;
+}
+.below-card
+{
+  background: #FF9900;
+  height: 250px;
+  font-size: 24px;
+  padding: 20px;
+}
+.below-card ul
+{
+  list-style: none;
+  margin-left: -30px;
+}
 .box-background:before {
   content: "";
   position: absolute;
@@ -117,6 +163,7 @@
     height: 22rem;
     left: 100px;
   }
+  
 }
 @media (min-width: 768px) and (max-width: 920px) {
   .box-background:before {
@@ -128,9 +175,26 @@
     height: 18rem;
     left: 50px;
   }
+  .pricing-card
+  {
+    flex-wrap: wrap;
+  }
+  .free-card
+  {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 768px) {
   .formulario {
     background-color: rgba(255, 229, 207, 1);
   }
+  .pricing-card
+  {
+    flex-wrap: wrap;
+  }
+  .free-card
+  {
+    margin-bottom: 30px;
+  }
+  
 }
