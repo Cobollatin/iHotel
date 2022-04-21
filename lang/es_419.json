@@ -3,6 +3,23 @@
   "app-description": "Nosotros te ayudaremos a elegir el mejor proveedor de la nube para tus necesidades.",
   "app-login": "Iniciar sesión",
   "app-register": "Registrarse",
+  "app-prices":
+  {
+    "title": "Encuentra tu Plan",
+    "free-card":
+    {
+      "title": "Gratis",
+      "description1": "Un máximo de 10 habitaciones",
+      "description2": "Un máximo de 5 clientes por día",
+      "description3": "Un máximo de 20 productos",
+      "description4": "Un máximo de 3 servicios"
+    },
+    "premium-card":
+    {
+      "title": "Premium",
+      "description": "Podrás utilizar todas las funciones de manera ilimitada"
+    }
+  }, 
   "app-form": {
     "title": "Contáctanos",
     "name": "Nombre",
