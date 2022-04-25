@@ -8,6 +8,7 @@
   text-align: center;
   font-size: 36px;
   letter-spacing: 0.02em;
+  margin-top: 120px;
 }
 .pricing-card
 {
@@ -188,13 +189,80 @@
   .formulario {
     background-color: rgba(255, 229, 207, 1);
   }
-  .pricing-card
-  {
+
+  .pricing-card {
     flex-wrap: wrap;
   }
-  .free-card
-  {
+
+  .free-card {
     margin-bottom: 30px;
   }
-  
 }
+
+
+  #features h2
+  {
+    font-family: "Segoe UI";
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    margin-bottom: 120px;
+  }
+  #features h3
+  {
+    font-family: "Segoe UI";
+    font-size: 36px;
+    letter-spacing: 0.02em;
+  }
+
+  .features-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  .fast-description{
+    width: 300px;
+  }
+
+  .protect-description{
+    width: 300px;
+  }
+
+  .connect-description{
+    width: 300px;
+  }
+
+  #connect-img {
+    width: 320px;
+    height: 317px;
+    margin-bottom: 70px;
+  }
+  #fast-img {
+    width: 357px;
+    height: 280px;
+    margin-bottom: 180px;
+  }
+  #protect-img {
+    width: 404px;
+    height: 281px;
+    margin-bottom: 70px;
+  }
+.connect {
+  margin-left: 320px;
+  margin-bottom: 50px;
+}
+.fast{
+  margin-right: 400px;
+  margin-bottom: 50px;
+}
+
+.protect {
+  margin-left: 240px;
+  margin-bottom: 50px;
+}
+
+
+

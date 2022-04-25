@@ -3,6 +3,27 @@
   "app-description": "We will help you chose the best cloud provider for your needs.",
   "app-login": "Login",
   "app-register": "Register",
+
+  "app-features":
+  {
+    "title": "Powerful tools that help you work, organize and be connect",
+      "connect":
+        {
+          "title": "Connect from anywhere",
+          "description": "You only need a place with an internet connection to stay organized and simplify the management of your hotel."
+        },
+      "fast":
+        {
+          "title": "Fast service",
+          "description": "Forget about buying super expensive computers, you just need a stable internet connection and be productive in your day to day."
+        },
+      "protect":
+      {
+        "title": "Protect what’s important",
+        "description": "Stay secured and productive with security features built in, you'll have peace of mind knowing that your hotel data is protected."
+      }
+  },
+
   "app-prices":
   {
     "title": "Find a Plan",
