@@ -1,8 +1,8 @@
 {
   "app-title": "iHotel",
-  "app-description": "Nosotros te ayudaremos a elegir el mejor proveedor de la nube para tus necesidades.",
   "app-login": "Iniciar sesión",
   "app-register": "Registrarse",
+<<<<<<< Updated upstream
 
   "app-features":
   {
@@ -24,6 +24,10 @@
     }
   },
 
+=======
+  "app-call-to-action": "¡Empieza ahora!",
+  "app-hero-description": "Adminsitra tu hotel, mantente actualizado, ahorra dinero y supervisa tus procesos.",
+>>>>>>> Stashed changes
   "app-prices":
   {
     "title": "Encuentra tu Plan",
