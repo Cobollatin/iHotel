@@ -1,6 +1,30 @@
 body
 {
   background: #EEEEEE;
+  font-family: 'Segoe UI';
+}
+.end select
+{
+  background: #006F53;
+  border-radius: 5px;
+  width: 117px;
+  height: 40px;
+
+  font-size: 16px;
+  color: #FFFFFF;
+
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 13px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #EEEEEE;
+}
+.start img
+{
+  width: 120px;
 }
 #forget-to
 {
@@ -201,6 +225,52 @@ body
 
 .button-contact-send:hover {
   background-color: #006f53;
+}
+
+#footer
+{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+#footer .img-footer
+{
+  width: 169px;
+}
+
+#footer .img-facebook
+{
+  width: 90px;
+}
+
+#footer .img-instagram
+{
+  width: 90px;
+}
+
+.a-img
+{
+  flex: 2;
+}
+.a-fb
+{
+  flex: 1;
+  margin-left: 400px;
+ 
+}
+.a-ig
+{
+  flex: 1;
+  margin-left: 50px;
+}
+#footer p
+{
+  flex: 2;
+  margin-left: 300px;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #909090;
 }
 
 /* SOLO MEDIA QUERIES PARA RESPONSIVE-------------------------------------------------- */
@@ -449,4 +519,32 @@ body
   .connect-description{
     text-align: center;
   }
+
+}
+
+@media (max-width: 1200px) {
+  #footer
+{
+  align-items: center;
+  flex-direction: column;
+}
+#footer .img-footer
+{
+  display: none;
+}
+
+.a-fb
+{
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+.a-ig
+{
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+#footer p
+{
+  margin-left: 0;
+}
 }
