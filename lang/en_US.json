@@ -39,5 +39,18 @@
         "number": "Number",
         "email": "Email",
         "send": "Send"
+    },
+
+    "app-abouttheproduct": {
+      "title-abouttheproduct": "About the Product."
+    },
+  
+    "app-abouttheteam": {
+      "title-abouttheteam": "About the Team."
+    },
+
+    "app-contact": {
+      "send": "Start free",
+      "title": "Manage your entire hotel more easily and efficiently."
     }
 }

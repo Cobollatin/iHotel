@@ -48,10 +48,12 @@
             <div class="col d-flex justify-content-start">
                 <div class="text-left" style="margin-left: 10%;">
                     <h1 class="display-1 fw-bold" data-i18n-key="app-hero-description"></h1>
-                    <button class="btn btn-lg btn-dark shadow-none text-center fs-1" data-i18n-key="app-call-to-action" style="border: none; background-color: #358C2E; margin-top: 5%;"
+                    <a href="https://app.ihotel.ga/">
+                    <button class="btn btn-lg btn-dark shadow-none text-center fs-1 font-family" data-i18n-key="app-call-to-action" style="border: none; background-color: #009D76; margin-top: 5%;"
                             title="call-to-action"
                             type="button"
                     ></button>
+                    </a>
                 </div>
                 <img
                         alt="feature"
@@ -157,67 +159,35 @@
         </div>
     </section>
 
-    <section id="contact">
-        <div class="contact-image"></div>
-        <div class="formulario p-5 mb-5 text-white">
-            <div class="box-background">
-                <form class="row" id="contact-form" name="form">
-                    <div class="col-xs-2 col-md-7"></div>
-                    <div class="col-xs-9 col-md-4">
-                        <div
-                                class="contact-title"
-                                data-i18n-key="app-form.title"
-                        ></div>
-                        <!--NAME-->
-                        <label
-                                class="form-control-labels"
-                                data-i18n-key="app-form.name"
-                        ></label>
-                        <input
-                                class="form-control"
-                                id="name"
-                                required
-                                title="name"
-                                type="text"
-                        />
-                        <!--NUMBER-->
-                        <label
-                                class="form-control-labels"
-                                data-i18n-key="app-form.number"
-                        ></label>
-                        <input
-                                class="form-control"
-                                id="phone"
-                                required
-                                title="phone"
-                                type="tel"
-                        />
-                        <!--EMAIL-->
-                        <label
-                                class="form-control-labels"
-                                data-i18n-key="app-form.email"
-                        ></label>
-                        <input
-                                class="form-control"
-                                id="email"
-                                required
-                                title="email"
-                                type="email"
-                        />
-                        <!--Boton-->
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="button-contact-send"
-                                    data-i18n-key="app-form.send"
-                                    title="contact"
-                                    type="submit"
-                            ></button>
-                        </div>
-                    </div>
-                    <div class="col-md-1 col-xs-1"></div>
-                </form>
-            </div>
+    <section id="abouttheproduct">
+        <h2 data-i18n-key="app-abouttheproduct.title-abouttheproduct"></h2>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aSjO-9wrgc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	  </iframe>
         </div>
-    </section>
+      </section>
+  
+      <section id="abouttheteam">
+        <h2 data-i18n-key="app-abouttheteam.title-abouttheteam"></h2>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Fe77S1nRfq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	  </iframe>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container-fluid contact-banner form">
+          <h1 data-i18n-key="app-contact.title" class="contact-title"></h1>
+          <a href="https://app.ihotel.ga/">
+            <button
+                    title="call to action"
+                    data-i18n-key="app-contact.send"
+                    class="btn-contact-send"
+            ></button
+            ></a>
+        </div>
+      </section>
+
 </main>
 <footer id="footer">
     <a class="a-img" href="#start" title="logo"
